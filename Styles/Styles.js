@@ -5,8 +5,49 @@ export default StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
   },
+  text: {
+    fontSize: 18,
+    textAlign: "center",
+  },
+  input: {
+    marginTop: 20,
+  },
+  rules: {
+    fontWeight: "bold",
+    textAlign: "center",
+    fontSize: 20,
+  },
+  ruletext: {
+    textAlign: "center",
+    padding: 20,
+  },
+  player: {
+    paddingTop: 10,
+    fontSize: 18,
+  },
+  total: {
+    paddingTop: 10,
+    fontSize: 22,
+  },
+  top: {
+    fontWeight: "bold",
+    fontSize: 25,
+    textAlign: "center",
+    paddingBottom: 20,
+  },
+  score: {
+    textAlign: "center",
+    paddingBottom: 10,
+  },
+  icon: {
+    textAlign: "center",
+  },
+  home: {
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
   header: {
-    marginTop: 30,
     marginBottom: 15,
     backgroundColor: "skyblue",
     flexDirection: "row",
@@ -62,9 +103,20 @@ export default StyleSheet.create({
     alignItems: "center",
   },
   buttonText: {
-    color: "#2B2B52",
+    color: "#ffffff",
     fontSize: 20,
   },
-  
+  points: {
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 15,
+    marginLeft: 10,
+    marginRight: 15,
+    textAlign: "center",
+  },
+  dicepoints: {
+    flexDirection: "row",
+    width: 250,
+    alignContent: "center",
+  },
 });
-

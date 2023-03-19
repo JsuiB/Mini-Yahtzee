@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Text, View } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { SCOREBOARD_KEY } from "../constants/Game";
-import styles from "../style/style";
+import { SCOREBOARD_KEY } from "../Const/Constants";
+import styles from "../Styles/Styles";
 import { Ionicons } from "@expo/vector-icons";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -39,7 +39,7 @@ export default Scoreboard = ({ navigation }) => {
       <Header />
       <View>
         <Ionicons name="list" size={90} color="steelblue" style={styles.icon} />
-        <Text style={styles.top}>Top Seven</Text>
+        <Text style={styles.top}></Text>
         {scores.map((player, i) => (
           <Text key={i} style={styles.score}>
             {i + 1}. {player.name} {player.date} {player.time} {player.points}

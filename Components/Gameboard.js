@@ -7,7 +7,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 
 import Header from "./Header";
 import Footer from "./Footer";
-import styles from "../style/style";
+import styles from "../Styles/Styles";
 
 let board = [];
 

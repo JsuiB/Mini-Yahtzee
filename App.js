@@ -2,9 +2,9 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
-import Home from "./components/Home.js";
-import Gameboard from "./components/Gameboard.js";
-import Scoreboard from "./components/Scoreboard.js";
+import Home from "./Components/Home";
+import Gameboard from "./Components/Gameboard";
+import Scoreboard from "./Components/Scoreboard";
 
 const Tab  = createBottomTabNavigator();
 

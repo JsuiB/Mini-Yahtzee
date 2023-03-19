@@ -24,7 +24,7 @@ export default Gameboard = ({ route }) => {
   const [selectedDicePoints, setSelectedDicePoints] = useState(
     new Array(MAX_SPOT).fill(false)
   );
-  // total points
+  
   const [dicePointsTotal, setDicePointsTotal] = useState(
     new Array(NBR_OF_DICES).fill(0)
   );

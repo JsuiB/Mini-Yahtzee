@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Text, View, Pressable } from "react-native";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
-import {NBR_OF_DICES, NBR_OF_THROWS,  MAX_SPOT, SCOREBOARD_KEY,} from "../Const/Constants"
+import {NBR_OF_DICES, NBR_OF_THROWS,  MAX_SPOT, SCOREBOARD_KEY,} from "../Const/Constants";
 import { Col, Grid } from "react-native-easy-grid";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 

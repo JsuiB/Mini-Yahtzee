@@ -70,7 +70,7 @@ export default Home = ({ navigation }) => {
             calculated. Inside the game you can not select same points from
             {MIN_SPOT} to {MAX_SPOT} again.
             {"\n"}
-            {"\n"}GOAL: To get points as much as possible.
+            {"\n"}GOAL: To get points as much as possible. 
             {BONUS_POINTS_LIMIT} points is the limit of getting bonus which
             gives you {BONUS_POINTS}
             points more.

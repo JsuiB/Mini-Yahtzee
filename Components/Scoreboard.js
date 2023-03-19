@@ -36,7 +36,7 @@ export default Scoreboard = ({ navigation }) => {
 
   return (
     <View>
-      <Header />
+      <Header/>
       <View>
         <Ionicons name="list" size={90} color="steelblue" style={styles.icon} />
         <Text style={styles.top}></Text>
@@ -46,7 +46,7 @@ export default Scoreboard = ({ navigation }) => {
           </Text>
         ))}
       </View>
-      <Footer />
+      <Footer/>
     </View>
   );
 };
